@@ -14,31 +14,31 @@ class ProductoSeeder extends Seeder
             [
                 'name' => 'Juan',
                 'email' => 'juan@mail.com',
-                'url_foto' => 'https://docs.material-tailwind.com/img/face-2.jpg',
+                'image_url' => 'https://docs.material-tailwind.com/img/face-2.jpg',
                 'password' => Hash::make("12345678"),
             ],
             [
                 'name' => 'Maria',
                 'email' => 'maria@mail.com',
-                'url_foto' => 'https://docs.material-tailwind.com/img/face-3.jpg',
+                'image_url' => 'https://docs.material-tailwind.com/img/face-3.jpg',
                 'password' => Hash::make("12345678"),
             ],
             [
                 'name' => 'Jose',
                 'email' => 'jose@mail.com',
-                'url_foto' => 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
+                'image_url' => 'https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80',
                 'password' => Hash::make("12345678"),
             ],
             [
                 'name' => 'Mariana',
                 'email' => 'mariana@mail.com',
-                'url_foto' => 'https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1061&q=80',
+                'image_url' => 'https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1061&q=80',
                 'password' => Hash::make("12345678"),
             ],
             [
                 'name' => 'John',
                 'email' => 'john@mail.com',
-                'url_foto' => 'https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1760&q=80',
+                'image_url' => 'https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1760&q=80',
                 'password' => Hash::make("12345678"),
             ]
         ]);
